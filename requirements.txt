@@ -11,6 +11,7 @@ click==8.1.8
 dataclasses-json==0.6.7
 Flask==3.1.0
 frozenlist==1.5.0
+greenlet==3.1.1
 h11==0.14.0
 httpcore==1.0.7
 httpx==0.28.1
@@ -32,10 +33,12 @@ mypy-extensions==1.0.0
 numpy==2.2.2
 orjson==3.10.15
 packaging==24.2
+playwright==1.49.1
 propcache==0.2.1
 pydantic==2.10.5
 pydantic-settings==2.7.1
 pydantic_core==2.27.2
+pyee==12.0.0
 python-dotenv==1.0.1
 PyYAML==6.0.2
 requests==2.32.3
