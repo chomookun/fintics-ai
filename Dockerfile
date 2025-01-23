@@ -8,7 +8,7 @@ ENV PYTHONPATH=/app
 
 # pip install
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt --root-user-action=ignore
 RUN playwright install
 RUN playwright install-deps
 
