@@ -23,7 +23,7 @@ pipeline {
         stage("build") {
             steps {
                 sh '''
-                docker build -t ${IMAGE_NAMESPACE}/fintics-ai:${IMAGE_TAGS} .
+                docker build --no-cache -t ${IMAGE_NAMESPACE}/fintics-ai:${IMAGE_TAGS} .
                 '''.stripIndent()
             }
         }
